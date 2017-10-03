@@ -1,0 +1,8 @@
+@mixin links {
+	color: $color;
+	@include transitions;
+}
+
+@mixin transitions {
+	transition: color ease-in-out 400ms;	
+}
